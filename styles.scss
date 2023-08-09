@@ -39,7 +39,6 @@ body {
     margin-right: 2rem;
   }
 }
-
 .grid {
   display: grid;
   max-width: 1440px;
@@ -48,14 +47,12 @@ body {
   grid-template-rows: auto auto;
   gap: 2rem;
 }
-.bloc-daniel {
-  background-color: $primary-violet;
-  border-radius: 2rem;
+.bloc-jonathan,
+.bloc-daniel,
+.bloc-patrick {
+  border-radius: 1rem;
   .container {
-    position: relative;
-    padding: 3rem;
-    z-index: 1;
-
+    padding: 2rem 4rem;
     h1 {
       color: $primary-white;
       font-size: 1.4rem;
@@ -70,7 +67,7 @@ body {
       margin-top: 2rem;
       margin-bottom: 2rem;
       line-height: 2.8rem;
-      font-size: 2.4rem;
+      font-size: 2.2rem;
       font-weight: 600;
     }
     p {
@@ -78,9 +75,49 @@ body {
       opacity: 70%;
       line-height: 2rem;
       font-size: 1.3rem;
-
       text-align: left;
     }
+  }
+}
+.bloc-kira,
+.bloc-jeanette {
+  background-color: $primary-white;
+  border-radius: 1rem;
+  .container {
+    padding: 4rem;
+    h1 {
+      color: $primary-black-blue;
+      font-size: 1.4rem;
+    }
+    span {
+      color: $primary-black-blue;
+      opacity: 70%;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    h2 {
+      color: $primary-black-blue;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      line-height: 2.8rem;
+      font-size: 2.2rem;
+      font-weight: 600;
+    }
+    p {
+      color: $primary-black-blue;
+      opacity: 70%;
+      line-height: 2rem;
+      font-size: 1.3rem;
+      text-align: left;
+    }
+  }
+}
+
+.bloc-daniel {
+  background-color: $primary-violet;
+  .container {
+    position: relative;
+    z-index: 1;
     .background__image {
       position: absolute;
       top: 0;
@@ -90,172 +127,36 @@ body {
     }
   }
 }
-.bloc-kira {
-  background-color: $primary-white;
-  border-radius: 1rem;
-  .container {
-    padding: 3rem;
-    h1 {
-      color: $primary-black-blue;
-      font-size: 1.4rem;
-    }
-    span {
-      color: $primary-black-blue;
-      opacity: 70%;
-      font-size: 1.2rem;
-      font-weight: 500;
-    }
-    h2 {
-      color: $primary-black-blue;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      line-height: 2.8rem;
-      font-size: 2.4rem;
-      font-weight: 600;
-    }
-    p {
-      color: $primary-black-blue;
-      opacity: 70%;
-      line-height: 2rem;
-      font-size: 1.3rem;
 
-      text-align: left;
-    }
-  }
-}
 .bloc-jonathan {
-  border-radius: 1rem;
   background-color: $primary-grey-blue;
-  .container {
-    padding: 3rem;
-    h1 {
-      color: $primary-white;
-      font-size: 1.4rem;
-    }
-    span {
-      color: $primary-white;
-      opacity: 70%;
-      font-size: 1.2rem;
-      font-weight: 500;
-    }
-    h2 {
-      color: $primary-white;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      line-height: 2.8rem;
-      font-size: 2.4rem;
-      font-weight: 600;
-    }
-    p {
-      color: $primary-white;
-      opacity: 70%;
-      line-height: 2rem;
-      font-size: 1.3rem;
-      text-align: left;
-    }
-  }
 }
 .bloc-patrick {
   background-color: $primary-black-blue;
-  border-radius: 1rem;
-  .container {
-    padding: 3rem;
-    h1 {
-      color: $primary-white;
-      font-size: 1.4rem;
-    }
-    span {
-      color: $primary-white;
-      opacity: 70%;
-      font-size: 1.2rem;
-      
-    }
-    h2 {
-      color: $primary-white;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      line-height: 2.8rem;
-      font-size: 2.4rem;
-      font-weight: 600;
-    }
-    p {
-      color: $primary-white;
-      opacity: 70%;
-      line-height: 2rem;
-      font-size: 1.3rem;
-      text-align: left;
-    }
-  }
-}
-.bloc-jeanette {
-  background-color: $primary-white;
-  border-radius: 1rem;
-  .container {
-    padding: 3rem;
-    h1 {
-      color: $primary-black-blue;
-      font-size: 1.4rem;
-    }
-    span {
-      color: $primary-black-blue;
-      opacity: 70%;
-      font-size: 1.2rem;
-      font-weight: 500;
-    }
-    h2 {
-      color: $primary-black-blue;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      line-height: 2.8rem;
-      font-size: 2.6rem;
-      font-weight: 600;
-    }
-    p {
-      color: $primary-black-blue;
-      opacity: 70%;
-      line-height: 2rem;
-      font-size: 1.3rem;
-      text-align: left;
-    }
-  }
 }
 
-@media screen and (min-width: 375px) {
+
+
+
+
+@media screen and (min-width: 1440px) {
   .bloc-daniel {
     grid-column: 1 / 3;
-    .container{
-      .background__image{
+    .container {
+      .background__image {
         width: 12rem;
         right: 10rem;
-        
       }
     }
   }
-  .bloc-jonathan {
-    
-    h1 {
-      color: $primary-white;
-      
-    }
-    span {
-      color: $primary-white;
-      opacity: 70%;
-    }
-  }
+
   .bloc-kira {
     grid-column: 4;
     grid-row: 1 / -1;
   }
   .bloc-patrick {
     grid-column: 2 / span 2;
-    border: 1px solid black;
-    h1 {
-      color: $primary-white;
-    }
-    span {
-      color: $primary-white;
-      opacity: 70%;
-    }
+
   }
   .bloc-jeanette {
     grid-row: 2;
