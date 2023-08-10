@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./sc1.png)
-![](./sc2.png)
+![screen1](./sc1.png)
+![screen2](./sc2.png)
 
 
 
 ### Links
 
-- Solution URL: [https://github.com/CallensJ/testimonials-grid-section](https://your-solution-url.com)
+- Solution URL: [https://github.com/CallensJ/testimonials-grid-section]
 - Live Site URL: [https://callensj.github.io/testimonials-grid-section/]
 
 ## My process
@@ -53,15 +53,14 @@ refactoring & adapting the code in order to remove any media-queries
 
 ### Useful resources
 
-- [https://css-tricks.com/snippets/css/complete-guide-grid/] - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [https://css-tricks.com/snippets/css/complete-guide-grid/] 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@CallensJ]
+- Twitter - [@johan_callens]
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 By myself helped with good articles.
